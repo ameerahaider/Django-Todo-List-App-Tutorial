@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* General Styles */
+
+body {
+    padding-top: 10px; /* Ensure content is not hidden under navbar */
+    padding-bottom: 10px;
+    background-color: #f8f9fa; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+.navbar {
+    margin-top: 10px; /* Space between navbar and content */
+    margin-bottom: 20px; /* Space between navbar and content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold brand name */
+    color: #007bff !important; /* Custom brand color */
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important; /* Darker color for nav links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Change color on hover */
+}
+
+.navbar-nav .active .nav-link {
+    color: #007bff !important; /* Active link color */
+    font-weight: bold; /* Active link font weight */
+}
+
+/* Content Styles */
+.container {
+    background: #fff; /* White background for content */
+    padding: 10px; /* Padding around content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Darker color for headings */
+}
+
+p {
+    color: #666; /* Gray color for paragraphs */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Custom button color */
+    border-color: #007bff; /* Match border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Match border color */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Add spacing between todo items */
+    background-color: #f1f1f1; /* Light background color for todo items */
+    padding: 10px; /* Add padding to each todo item */
+    border-radius: 5px; /* Rounded corners for todo items */
+}
+
+ul li:hover {
+    background-color: #e2e2e2; /* Darker background color on hover */
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark-mode .navbar {
+    background-color: #222; /* Dark background color for navbar */
+    box-shadow: none; /* Remove shadow for navbar */
+}
+
+.dark-mode .navbar-brand {
+    color: #000000 !important; /* White color for navbar brand in dark mode */
+}
+
+.dark-mode .navbar-nav .nav-link {
+    color: #ccc !important; /* Lighter color for nav links in dark mode */
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+    color: #fff !important; /* White color for nav links on hover in dark mode */
+}
+
+.dark-mode .navbar-nav .active .nav-link {
+    color: #fff !important; /* White color for active nav link in dark mode */
+}
+
+.dark-mode .container {
+    background: #222; /* Dark background color for content in dark mode */
+    color: #ccc; /* Lighter text color for content in dark mode */
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: #fff; /* White color for headings in dark mode */
+}
+
+.dark-mode p {
+    color: #ddd; /* Lighter color for paragraphs in dark mode */
+}
+
+.dark-mode .btn-primary {
+    background-color: #007bff; /* Custom button color in dark mode */
+    border-color: #007bff; /* Match border color in dark mode */
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover in dark mode */
+    border-color: #0056b3; /* Match border color on hover in dark mode */
+}
+
+.dark-mode ul li {
+    background-color: #444; /* Darker background color for todo items in dark mode */
+}
+
+.dark-mode ul li:hover {
+    background-color: #333; /* Darker background color on hover in dark mode */
+}
